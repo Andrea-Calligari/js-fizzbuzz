@@ -13,26 +13,39 @@ for(let i = 0; i < n; i++){
 
      //  console.log('resto:',restoTre)
      
-     if(restoTre === 0){
+        if(restoTre === 0 && restoCinque === 0){
          
-         console.log('Fizz')
+         console.log('Fizz-Buzz')
          
-     }else if( restoCinque === 0){
-
-         console.log('Buzz');
-
+        }else if(restoTre === 0){
+            
+            console.log('Fizz');
+            
             //i numeri multipli di 3 e 5 vanno sostituiti dalla stampa "Fizz Buzz"
-
-    }else
+            
+        }else if(restoCinque === 0){
+           
+            console.log('Buzz')
      
-     console.log(num);
-     
-     
-     if(restoTre === 0 && restoCinque === 0){
+        }else{
+            console.log(num)
+        }
         
-        console.log('Fizz-Buzz')
- 
-     }
+        /*let result = '';
+        if(restoTre === 0){
+         
+            //console.log('Fizz')
+            result += 'Fizz';
+        }
+
+        if(restoCinque === 0){
+         
+            //console.log('Buzz')
+            result += 'Buzz';
+            
+        }
+        console.log(result);*/
+     
     }
     
      
