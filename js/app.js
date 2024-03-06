@@ -2,7 +2,7 @@
 let n = 100;
 for(let i = 0; i < n; i++){
     let num = i + 1;
-     console.log(num)
+    //  console.log(num)
      
      //i numeri multipli di 3 vanno sostituiti dalla stampa "Fizz"
      const restoTre = num % 3; //number
@@ -19,16 +19,21 @@ for(let i = 0; i < n; i++){
          
      }else if( restoCinque === 0){
 
-            console.log('Buzz');
+         console.log('Buzz');
 
             //i numeri multipli di 3 e 5 vanno sostituiti dalla stampa "Fizz Buzz"
 
-     }else(restoTre === 0 && restoCinque === 0)
+    }else
+     
+     console.log(num);
+     
+     
+     if(restoTre === 0 && restoCinque === 0){
         
-        console.log('Fizz-Buzz');
-    
-
+        console.log('Fizz-Buzz')
+ 
      }
+    }
     
      
     
